@@ -40,7 +40,6 @@ function imageErrorHandler(evt) {
 
 function pageFormat() {
     $('<img width=20 height=15 src="https://static.wikia.nocookie.net/leagueoflegends/images/1/10/Gold.png">').appendTo('.item_stats .item_gold_equivalent');
-
     $('.category.title').hover(function () {
         $(this).toggleClass('hover');
     });
