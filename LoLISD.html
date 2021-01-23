@@ -368,7 +368,7 @@
 				let $supportedMaps = $('<span></span>');
 				for (key in args.maps) {
 					if (args.maps[key] == true) {
-						$supportedMaps.append('<img src="http://ddragon.leagueoflegends.com/cdn/6.8.1/img/map/map' + key + '.png" onerror="javascript:imageErrorHandler.call(this, event);" width="32" height="32">');
+						$supportedMaps.append('<img src="https://ddragon.leagueoflegends.com/cdn/6.8.1/img/map/map' + key + '.png" onerror="javascript:imageErrorHandler.call(this, event);" width="32" height="32">');
 					}
 				}
 				$elem = $('\
@@ -483,7 +483,7 @@
 
 						let tmp = calculateGoldEfficiency(item);
 
-						let itemImgLink = 'http://ddragon.leagueoflegends.com/cdn/10.25.1/img/item/' + item.image.full;
+						let itemImgLink = 'https://ddragon.leagueoflegends.com/cdn/10.25.1/img/item/' + item.image.full;
 						let itemName = item.name;
 						let goldEfficiency = tmp.itemGoldEfficiency;
 						let equivalentInGolds = tmp.itemGoldEq;
