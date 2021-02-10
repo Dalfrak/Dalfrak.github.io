@@ -4,8 +4,8 @@ html {
 }
 
 body {
-	background-image: url(https://static.wikia.nocookie.net/leagueoflegends/images/5/50/Wiki-background/revision/latest/scale-to-width-down/1920);
-	/* background-image: url(./background.jpg); */
+	/* background-image: url(https://static.wikia.nocookie.net/leagueoflegends/images/5/50/Wiki-background/revision/latest/scale-to-width-down/1920); */
+	background-image: url(./background.jpg);
 	background-position: top;
 	background-repeat: no-repeat;
 	background-attachment: fixed;

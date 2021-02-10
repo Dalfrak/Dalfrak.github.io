@@ -18,7 +18,7 @@ let baseStatsPrice = [
     { mainName: 'Ability Haste', value: 26 + 2 / 3, isPercentage: false },
     { mainName: 'Lethality', value: 5, isPercentage: false },
     // Percentage
-    { mainName: 'Omnivamp', value: 119/3, isPercentage: true },
+    { mainName: 'Omnivamp', value: 119 / 3, isPercentage: true },
     { mainName: 'Heal and Shield Power', value: 55, isPercentage: true },
     { mainName: 'Move Speed', value: 39.5, isPercentage: true },
     { mainName: 'Critical Strike Chance', value: 40, isPercentage: true },
